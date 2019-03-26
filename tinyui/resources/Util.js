@@ -66,7 +66,7 @@ function openFirstDialog() {
 
                url: "country/country.xsjs",
 
-               contentType: "application/jso",
+               contentType: "application/json",
 
                data: insertdata,
 
