@@ -106,7 +106,7 @@ function openFirstDialog() {
 
 $(function() {
 
-  // one time fetch of CSRF token
+// one time fetch of CSRF token
 
   $.ajax({
 

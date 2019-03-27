@@ -35,7 +35,7 @@ modules:
         properties:
           name: tinyjs_be
           url: ~{service_url}
-          forwardAuthToken: True
+          forwardAuthToken: true
       - name: tiny_uaa
          
 resources:
@@ -44,3 +44,4 @@ resources:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
  - name: tiny_uaa
+   type: com.sap.xs.uaa
